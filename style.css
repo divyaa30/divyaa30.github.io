@@ -1,19 +1,44 @@
 /* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 body{
-    background: #ffffff;
+    background: #0A1931;
 }
 
 ::selection{
     color: #fff;
     background: #007bff;
+}
+
+.top{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 181px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-item: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.top .heading1{
+    font-family: 'Dancing Script', cursive;
+    color: #c3e6cb;
+    font-size: 50px;
 }
 
 .start_btn,
@@ -39,7 +64,7 @@ body{
 
 .start_btn button{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     color: #007bff;
     padding: 15px 30px;
     outline: none;
